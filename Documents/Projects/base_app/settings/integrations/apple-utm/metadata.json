@@ -1,0 +1,22 @@
+{
+  "type": "apple-utm",
+  "name": "Apple UTM",
+  "description": "Apple UTM virtual machine manager integration",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "name": "host",
+      "label": "IP Address / Host",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter IP address or hostname"
+    },
+    {
+      "name": "port",
+      "label": "Port",
+      "type": "text",
+      "required": true,
+      "placeholder": "9093"
+    }
+  ]
+}

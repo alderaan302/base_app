@@ -1,0 +1,22 @@
+{
+  "type": "google-gemini",
+  "name": "Google Gemini",
+  "description": "Google Gemini AI API integration",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "name": "email",
+      "label": "Email Address",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter your Google account email"
+    },
+    {
+      "name": "api_key",
+      "label": "API Key",
+      "type": "password",
+      "required": true,
+      "placeholder": "Enter your Gemini API key"
+    }
+  ]
+}

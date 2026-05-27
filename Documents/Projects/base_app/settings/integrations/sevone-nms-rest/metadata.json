@@ -1,0 +1,53 @@
+{
+  "type": "sevone-nms-rest",
+  "name": "SevOne NMS REST",
+  "description": "SevOne Network Management System REST API integration",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "name": "host",
+      "label": "IP Address / Host",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter IP address or hostname"
+    },
+    {
+      "name": "version",
+      "label": "Version",
+      "type": "select",
+      "required": true,
+      "options": ["v2", "v3"],
+      "default": "v2"
+    },
+    {
+      "name": "username",
+      "label": "Username",
+      "type": "text",
+      "required": true,
+      "visibleWhen": {
+        "field": "version",
+        "value": "v2"
+      }
+    },
+    {
+      "name": "password",
+      "label": "Password",
+      "type": "password",
+      "required": true,
+      "visibleWhen": {
+        "field": "version",
+        "value": "v2"
+      }
+    },
+    {
+      "name": "api_key",
+      "label": "API Key",
+      "type": "password",
+      "required": true,
+      "visibleWhen": {
+        "field": "version",
+        "value": "v3"
+      }
+    }
+  ]
+}

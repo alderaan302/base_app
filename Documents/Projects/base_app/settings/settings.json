@@ -1,0 +1,206 @@
+{
+  "setup_complete": true,
+  "admin_username": "admin",
+  "admin_password": "sevone13",
+  "brand_text": "Real Software LLC",
+  "info_text": "Real Software LLC",
+  "info_image": "info_icon.png",
+  "default_page": "integrations",
+  "page_settings": {
+    "integrations": {
+      "display_text": "Welcome to Integrat",
+      "image": "",
+      "image_width": 600,
+      "image_height": 400
+    },
+    "reports": {
+      "display_text": "Reports Overview",
+      "image": "",
+      "image_width": 600,
+      "image_height": 400
+    },
+    "devices": {
+      "display_text": "Devices Management",
+      "image": "",
+      "image_width": 600,
+      "image_height": 400
+    },
+    "policies": {
+      "display_text": "Policies Configuration",
+      "image": "policies.png",
+      "image_width": 510,
+      "image_height": 214
+    },
+    "maps": {
+      "display_text": "Network Maps",
+      "image": "",
+      "image_width": 600,
+      "image_height": 400
+    },
+    "instant_graphs": {
+      "display_text": "Instant Graphs",
+      "image": "",
+      "image_width": 600,
+      "image_height": 400
+    },
+    "flow_explorer": {
+      "display_text": "Flow Explorer",
+      "image": "",
+      "image_width": 600,
+      "image_height": 400
+    },
+    "cloud_manager": {
+      "display_text": "Cloud Manager",
+      "image": "",
+      "image_width": 600,
+      "image_height": 400
+    }
+  },
+  "integrations_settings": {
+    "display_text": "Welcome to Integrations",
+    "image": "integration.png",
+    "image_width": 588,
+    "image_height": 415
+  },
+  "menu_items": [
+    {
+      "children": [],
+      "id": "integrations",
+      "label": "Integrations"
+    },
+    {
+      "children": [],
+      "id": "reports",
+      "label": "Reports"
+    },
+    {
+      "children": [],
+      "id": "devices",
+      "label": "Devices"
+    },
+    {
+      "children": [],
+      "id": "policies",
+      "label": "Policies"
+    },
+    {
+      "children": [],
+      "id": "maps",
+      "label": "Maps"
+    },
+    {
+      "children": [],
+      "id": "instant_graphs",
+      "label": "Instant Graphs"
+    },
+    {
+      "children": [],
+      "id": "flow_explorer",
+      "label": "Flow Explorer"
+    },
+    {
+      "children": [],
+      "id": "cloud_manager",
+      "label": "Cloud Manager"
+    },
+    {
+      "children": [
+        "General",
+        "Connections"
+      ],
+      "id": "configure",
+      "label": "Configure"
+    },
+    {
+      "children": [
+        "Users",
+        "Audit Logs"
+      ],
+      "id": "administer",
+      "label": "Administer"
+    }
+  ],
+  "reports_columns": [
+    {
+      "key": "name",
+      "label": "Name"
+    },
+    {
+      "key": "description",
+      "label": "Description"
+    },
+    {
+      "key": "folder",
+      "label": "Folder"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    },
+    {
+      "key": "last_updated",
+      "label": "Last Updated"
+    },
+    {
+      "key": "last_opened",
+      "label": "Last Opened"
+    }
+  ],
+  "integration_configs": {
+    "prometheus": {
+      "host": "192.168.68.11",
+      "port": "9090",
+      "requires_auth": false,
+      "username": "",
+      "password": "",
+      "display_name": "Mac Studio"
+    },
+    "prometheus_2": {
+      "host": "192.168.68.7",
+      "port": "9090",
+      "requires_auth": false,
+      "username": "",
+      "password": "",
+      "display_name": "prod-svc-01"
+    },
+    "sevone-nms-rest": {
+      "host": "192.168.68.3",
+      "port": "443",
+      "requires_auth": true,
+      "username": "",
+      "password": "",
+      "display_name": "sevone-nms-01",
+      "version": "v3",
+      "api_key": "eyJ1dWlkIjoiZDE3ZDVhYmQtOWNhYi00NmJmLTk0NDItMzExYmVhMjBkYjU0IiwiYXBwbGljYXRpb24iOiJzZXJ2aWNlIiwiZW50cm9weSI6InZ3NHN6N0xqeW55YkpMcklBUGpHMG5xMVpHRThKbmp4a0VLUFRHc0htZTdQanBZK2dlYlRiMHA0YzY3Lzh2T2kifQ=="
+    },
+    "homebridge": {
+      "api_key": "",
+      "display_name": "Apple Homekit Homebridge",
+      "host": "localhost",
+      "password": "Ciurz8",
+      "port": "8581",
+      "requires_auth": false,
+      "username": "root",
+      "version": "v2",
+      "api_url": "http://192.168.68.11:8581"
+    },
+    "ring": {
+      "api_key": "",
+      "display_name": "Ring",
+      "host": "localhost",
+      "password": "Ciurz8!n0w",
+      "port": "9090",
+      "requires_auth": false,
+      "url": "https://www.ring.com",
+      "username": "phill.ingram302@gmail.com",
+      "version": "v2"
+    },
+    "home-phill": {
+      "homebridge_url": "http://192.168.68.11:8581",
+      "password": "Ciurz8",
+      "username": "root",
+      "display_name": "Apple Home Phill"
+    }
+  },
+  "admin_email": "phill.ingram@gmail.com"
+}

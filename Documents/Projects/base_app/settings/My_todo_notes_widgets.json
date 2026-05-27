@@ -1,0 +1,197 @@
+{
+  "widgets": [
+    {
+      "height": 560,
+      "hideLegend": false,
+      "id": "widget_1779676280623",
+      "image": "",
+      "integrationId": "",
+      "metric": "",
+      "name": "Notes",
+      "tabId": "tab_1",
+      "text": "# AI Agent\nAdd an gernerative AI agent that can answer questions about how to use the tool. Later it should be trained on SevOne data\n# Audit logs link to SevOne audit logs\n# Prompts\n## Make it start logging prompts to an md file. this is what I have so far.",
+      "textType": "Markup editor",
+      "type": "Text",
+      "width": 707,
+      "x": 20,
+      "y": 20
+    },
+    {
+      "height": 374,
+      "hideLegend": false,
+      "id": "widget_1779685573011",
+      "image": "",
+      "integrationId": "",
+      "metric": "",
+      "name": "PM prompt",
+      "tabId": "tab_1",
+      "text": "You are an experienced project manager. Summarize the following project meeting transcript and create a meeting summary that includes the following items:\n\u2022\u2003\u2003Meeting Details\no\u2003\u2003Meeting Title\no\u2003\u2003Project Name (If provided)\no\u2003\u2003Date and Time: Clearly state when the meeting took place.\no\u2003\u2003Attendees: List all participants with the name of the organization they below to in brackets. For example: participant name (organization name).\n\u2022\u2003\u2003Meeting Purpose: A brief description of the meeting's objective.\n\u2022\u2003\u2003Summary of Discussions:\no\u2003\u2003Key Topics: Highlight the main subjects discussed.\no\u2003\u2003Decisions Made: Outline any decisions or agreements reached.\no\u2003\u2003Challenges/Concerns: Note any issues or concerns raised during the meeting.\n\u2022\u2003\u2003Action Items. Please put the action items into a table format and prioritize them.\no\u2003\u2003Task List: Specific actions that need to be taken.\no\u2003\u2003Responsible Parties: Assign tasks to individuals or teams.\no\u2003\u2003Deadlines: Specify when each action item is due.\n\u2022\u2003\u2003Next Steps:\no\u2003\u2003Follow-Up Meetings: If applicable, mention when the next meeting is scheduled and who will schedule it.\no\u2003\u2003Additional Information Needed: Outline any further information required to move forward\n\u2022\u2003\u2003Key Insights/Takeaways:\no\u2003\u2003Summarize the most important points or decisions that are critical for stakeholders to be aware of.\n\u2022\u2003\u2003Attachments/References:\no\u2003\u2003Note any documents or links referenced during the meeting.\n\nParticipants\n\nPhill\nRicky\nMohamed\n\nSummary\n\nNaz couldnt attend today and he was driving some of this with his spreadsheet of policies. Mohamed Found some issues with devices that were new, but still not discovering with 0 objects. Some devices on a 151 subnet are failing snmpwalk Commands. A meeting will be scheduled for Naz tomorrow that Mohamed won't be able to join, so we can review VZWAN-124067 (Device Certification ticket). Phill will have action items for the discovery promlem on SevOne-09, and if unable to get it completed in a day, will open a Device Certification case with support (10 business daya SLA).\n\nConcerns\n\nSNMPv3 configurations are using no encryption.\nSNMP access is only being configured for 9 IP addresses instead of the 18 meaning failovers would not work.",
+      "textType": "Text",
+      "type": "Text",
+      "width": 496,
+      "x": 54,
+      "y": 586
+    },
+    {
+      "height": 300,
+      "hideLegend": false,
+      "id": "widget_1779686010836",
+      "image": "",
+      "integrationId": "",
+      "metric": "",
+      "name": "Big Tasks",
+      "tabId": "tab_1",
+      "text": "# Adding published reports as a web page viewable if not logged in",
+      "textType": "Markup editor",
+      "type": "Text",
+      "width": 400,
+      "x": 20,
+      "y": 994
+    },
+    {
+      "height": 300,
+      "hideLegend": false,
+      "id": "widget_1779687692598",
+      "image": "",
+      "integrationId": "",
+      "metric": "",
+      "name": "my shit",
+      "tabId": "tab_1779687674857",
+      "text": "dfdf",
+      "textType": "Text",
+      "type": "Text",
+      "width": 400,
+      "x": 20,
+      "y": 20
+    },
+    {
+      "height": 989,
+      "hideLegend": false,
+      "id": "widget_1779688002433",
+      "image": "",
+      "integrationId": "",
+      "metric": "",
+      "name": "NMS",
+      "tabId": "tab_1779687974581",
+      "text": "",
+      "textType": "Text",
+      "type": "URL",
+      "url": "http://192.168.68.3",
+      "width": 1668,
+      "x": 20,
+      "y": 20
+    },
+    {
+      "height": 527,
+      "hideLegend": false,
+      "id": "widget_1779688103028",
+      "image": "",
+      "integrationId": "",
+      "metric": "",
+      "name": "dfsdf",
+      "tabId": "tab_1",
+      "text": "You are working on an existing web application that already has:\n\n- A \"Reports\" page\n- A widget system where users can add widgets by choosing:\n    - widget type\n    - widget name\n- An \"Integrations\" page that already parses SevOne audit logs and displays them in a structured table\n\nYour task is to extend the app with a NEW widget type called:\n\n    \"log-parser\"\n\nThis widget should behave as follows:\n\n--------------------------------------------------\n\ud83e\udde9 WIDGET CREATION FLOW\n--------------------------------------------------\n\nWhen the user clicks \"Add Widget\":\n\n1. The existing widget selector appears\n2. The user selects:\n       Widget Type = \"log-parser\"\n3. At this moment:\n   Instead of immediately adding the widget,\n   open a LIGHTBOX / MODAL dialog\n\n--------------------------------------------------\n\ud83d\udca1 LIGHTBOX / MODAL REQUIREMENTS\n--------------------------------------------------\n\nThe modal should contain:\n\n1. Widget Name (text input)\n   - Pre-filled with the name entered earlier (if available)\n   - Required field\n\n2. Log Input (large textarea)\n   - Label: \"Paste SevOne Audit Log\"\n   - Accepts multi-line text\n   - Required field\n\n3. Buttons:\n   - \"Create Widget\" (primary)\n   - \"Cancel\" (secondary)\n\n--------------------------------------------------\n\ud83d\udcca ON SUBMIT BEHAVIOR\n--------------------------------------------------\n\nWhen user clicks \"Create Widget\":\n\n1. Parse the log text using the SAME logic used on the Integrations page\n   (IMPORTANT: reuse existing parsing functions if available)\n\n2. Transform the parsed data into structured rows:\n   Each row should include:\n\n   - timestamp\n   - userName\n   - userId\n   - userIp\n   - eventType\n   - action\n   - entityType / relatedEntityType\n   - entityName / relatedEntityName\n   - success/failure (for auth events)\n\n3. Store the widget config and parsed data:\n   Example structure:\n\n   {\n     type: \"log-parser\",\n     name: \"Widget Name\",\n     rawLog: \"...\",\n     parsedRows: [...]\n   }\n\n--------------------------------------------------\n\ud83d\udcc8 WIDGET DISPLAY REQUIREMENTS\n--------------------------------------------------\n\nRender the widget on the Reports page with:\n\n\u2705 A table that MATCHES the style and behavior of the Integrations page table\n   (reuse the same component if possible)\n\nTable should include:\n- Column sorting\n- Pagination (if already supported)\n- Same column structure\n\n--------------------------------------------------\n\ud83c\udfa8 UI / UX EXPECTATIONS\n--------------------------------------------------\n\n- Modal should use existing UI framework styling\n- Table must visually match Integrations page\n- Widget title should display the widget name\n- Widget should be re-renderable from saved state\n- Avoid duplicating parsing logic \u2014 centralize it\n\n--------------------------------------------------\n\ud83d\udd01 BONUS (IF EASY WITH CURRENT ARCHITECTURE)\n--------------------------------------------------\n\n- Allow editing the widget (reopen modal with existing data)\n- Allow re-parsing when log changes\n\n--------------------------------------------------\n\u2699\ufe0f IMPLEMENTATION NOTES\n--------------------------------------------------\n\n- Identify and reuse:\n    - existing log parsing utilities\n    - existing table component from Integrations page\n\n- Do NOT rewrite parsing logic unless necessary\n- Follow current app state management patterns\n- Keep code modular (widget component separated from modal)\n\n--------------------------------------------------\n\u2705 OUTPUT EXPECTATION\n--------------------------------------------------\n\nProvide:\n\n1. Code changes for:\n   - Widget registry / system\n   - Modal component\n   - Widget component\n   - Integration with Reports page\n\n2. Clear explanation of:\n   - How parsing is reused\n   - How widget data is stored\n   - How rendering works\n\n3. Any assumptions you made about the existing app\n",
+      "textType": "Text",
+      "type": "Text",
+      "url": "",
+      "width": 968,
+      "x": 742,
+      "y": 22
+    },
+    {
+      "id": "widget_1779689839426",
+      "type": "Alert Details",
+      "name": "ggg",
+      "integrationId": "sevone-nms-rest",
+      "alerts": [
+        {
+          "deviceName": "sevone-nms-er-01s",
+          "id": "2892",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "ALERT",
+          "startTime": "1779200285"
+        },
+        {
+          "deviceName": "mac-mini-03",
+          "id": "2893",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "WARNING",
+          "startTime": "1779200285"
+        },
+        {
+          "deviceName": "cisco-rv320",
+          "id": "2894",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "ALERT",
+          "startTime": "1779200285"
+        },
+        {
+          "deviceName": "mac-mini-02",
+          "id": "2895",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "WARNING",
+          "startTime": "1779200285"
+        },
+        {
+          "deviceName": "aws-rt-01",
+          "id": "2897",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "ALERT",
+          "startTime": "1779200286"
+        },
+        {
+          "deviceName": "sevone-nms-er-01s",
+          "id": "2898",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "EMERGENCY",
+          "startTime": "1779200285"
+        },
+        {
+          "deviceName": "cisco-rv320",
+          "id": "2899",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "EMERGENCY",
+          "startTime": "1779200285"
+        },
+        {
+          "deviceName": "mac-mini-04",
+          "id": "2901",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "WARNING",
+          "startTime": "1779293765"
+        }
+      ],
+      "tabId": "tab_1779687974581",
+      "x": 20,
+      "y": 1029,
+      "width": 900,
+      "height": 400
+    }
+  ],
+  "tabs": [
+    {
+      "id": "tab_1",
+      "name": "Initial Tab"
+    },
+    {
+      "id": "tab_1779687974581",
+      "name": "New Tab"
+    }
+  ]
+}

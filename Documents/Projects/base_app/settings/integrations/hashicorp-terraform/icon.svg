@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="terraform-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5C4EE5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7B42BC;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <circle cx="50" cy="50" r="45" fill="url(#terraform-gradient)"/>
+  <!-- Terraform logo inspired design -->
+  <!-- Left triangle -->
+  <polygon points="25,35 25,65 42,50" fill="white"/>
+  <!-- Top right triangle -->
+  <polygon points="48,25 48,50 65,37.5" fill="white"/>
+  <!-- Bottom right triangle -->
+  <polygon points="48,50 48,75 65,62.5" fill="white"/>
+  <!-- Far right small triangle -->
+  <polygon points="70,37.5 70,62.5 82,50" fill="white" opacity="0.8"/>
+</svg>

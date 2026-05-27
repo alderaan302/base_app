@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="homebridge-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D2691E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <circle cx="50" cy="50" r="45" fill="url(#homebridge-gradient)"/>
+  <!-- House shape -->
+  <path d="M 50 20 L 75 40 L 75 75 L 25 75 L 25 40 Z" fill="white" opacity="0.9"/>
+  <!-- Roof -->
+  <path d="M 50 20 L 75 40 L 25 40 Z" fill="#FFD700"/>
+  <!-- Door -->
+  <rect x="43" y="55" width="14" height="20" rx="2" fill="#8B4513"/>
+  <!-- Window -->
+  <rect x="35" y="45" width="8" height="8" rx="1" fill="#87CEEB"/>
+  <rect x="57" y="45" width="8" height="8" rx="1" fill="#87CEEB"/>
+</svg>

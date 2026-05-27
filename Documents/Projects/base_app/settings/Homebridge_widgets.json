@@ -1,0 +1,97 @@
+{
+  "widgets": [
+    {
+      "height": 300,
+      "hideLegend": false,
+      "id": "widget_1779760932593",
+      "image": "",
+      "integrationId": "",
+      "metric": "",
+      "name": "Post Authorize text",
+      "tabId": "tab_1",
+      "text": "Scopes are used to grant an application different levels of access to data on behalf of the end user. Each API may declare one or more scopes.\n\nAPI requires the following scopes. Select which ones you want to grant to Swagger UI.\n\nbearer (OAuth2, password)\nAuthorized\nToken URL: /api/auth/login\n\nFlow: password\n\nusername: root\npassword: ******\nClient credentials location: basic\nclient_secret: ******",
+      "textType": "Text",
+      "type": "Text",
+      "width": 400,
+      "x": 20,
+      "y": 20
+    },
+    {
+      "height": 300,
+      "hideLegend": false,
+      "id": "widget_1779761355714",
+      "image": "",
+      "integrationId": "homebridge",
+      "metric": "",
+      "name": "Pairing 2",
+      "object": "Pairings",
+      "tabId": "tab_1",
+      "text": "",
+      "textType": "Text",
+      "type": "Metadata",
+      "width": 400,
+      "x": 20,
+      "y": 952
+    },
+    {
+      "height": 598,
+      "hideLegend": false,
+      "id": "widget_1779761555357",
+      "image": "",
+      "integrationId": "homebridge",
+      "metric": "",
+      "name": "Info",
+      "object": "Settings",
+      "tabId": "tab_1",
+      "text": "",
+      "textType": "Text",
+      "type": "Metadata",
+      "width": 573,
+      "x": 0,
+      "y": 341
+    },
+    {
+      "height": 300,
+      "hideLegend": false,
+      "id": "widget_1779764135254",
+      "image": "",
+      "integrationId": "homebridge",
+      "metric": "",
+      "name": "dfggdfg",
+      "object": "Server Information",
+      "tabId": "tab_1",
+      "text": "",
+      "textType": "Text",
+      "type": "Metadata",
+      "width": 400,
+      "x": 484,
+      "y": 955
+    },
+    {
+      "cameraId": "36cb5c8ef188b8a5180a0e448178bbedd420003eff3f85dabe6eefcae3574fa5",
+      "cameraName": "Garden Spotlight",
+      "height": 1213,
+      "hideLegend": false,
+      "id": "widget_1779780621629",
+      "image": "",
+      "integrationId": "",
+      "metric": "",
+      "name": "k.lk.lk.",
+      "object": "",
+      "tabId": "tab_1",
+      "text": "",
+      "textType": "Text",
+      "type": "Video Feed",
+      "videoSource": "Ring",
+      "width": 1476,
+      "x": 0,
+      "y": 11
+    }
+  ],
+  "tabs": [
+    {
+      "id": "tab_1",
+      "name": "Initial Tab"
+    }
+  ]
+}

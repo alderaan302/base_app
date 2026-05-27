@@ -1,0 +1,37 @@
+{
+  "type": "ring",
+  "name": "Ring",
+  "description": "Ring smart home security integration",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "name": "url",
+      "label": "URL",
+      "type": "text",
+      "required": true,
+      "placeholder": "https://api.ring.com"
+    },
+    {
+      "name": "username",
+      "label": "Username",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter username"
+    },
+    {
+      "name": "password",
+      "label": "Password",
+      "type": "password",
+      "required": true,
+      "placeholder": "Enter password"
+    },
+    {
+      "name": "cameras",
+      "label": "Cameras (one per line)",
+      "type": "textarea",
+      "required": false,
+      "placeholder": "Front Door Camera\nBackyard Camera\nGarage Camera",
+      "help": "Enter camera names, one per line"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "widgets": [
+    {
+      "id": "widget_1779846990314",
+      "type": "URL",
+      "name": "Tester Widget Demo",
+      "image": "",
+      "text": "",
+      "textType": "Text",
+      "integrationId": "",
+      "metric": "",
+      "url": "https://github.com/",
+      "object": "",
+      "hideLegend": false,
+      "tabId": "tab_1",
+      "x": 20,
+      "y": 20,
+      "width": 1190,
+      "height": 739
+    }
+  ],
+  "tabs": [
+    {
+      "id": "tab_1",
+      "name": "Initial Tab"
+    }
+  ]
+}

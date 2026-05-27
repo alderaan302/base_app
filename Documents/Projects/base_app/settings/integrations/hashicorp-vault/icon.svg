@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="vault-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1D1F21;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E3338;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <circle cx="50" cy="50" r="45" fill="url(#vault-gradient)"/>
+  <!-- Vault door outer ring -->
+  <circle cx="50" cy="50" r="32" fill="none" stroke="#FFD814" stroke-width="3"/>
+  <!-- Vault door inner ring -->
+  <circle cx="50" cy="50" r="24" fill="none" stroke="#FFD814" stroke-width="2"/>
+  <!-- Center lock mechanism -->
+  <circle cx="50" cy="50" r="8" fill="#FFD814"/>
+  <!-- Lock handle bars -->
+  <line x1="50" y1="50" x2="72" y2="35" stroke="#FFD814" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="50" y1="50" x2="65" y2="65" stroke="#FFD814" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="50" y1="50" x2="28" y2="42" stroke="#FFD814" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Small circles at handle ends -->
+  <circle cx="72" cy="35" r="3" fill="#FFD814"/>
+  <circle cx="65" cy="65" r="3" fill="#FFD814"/>
+  <circle cx="28" cy="42" r="3" fill="#FFD814"/>
+</svg>

@@ -1,0 +1,6 @@
+Flask>=3.0,<4.0
+gunicorn>=22.0,<23.0
+Werkzeug>=3.0,<4.0
+requests>=2.31,<3.0
+selenium>=4.15,<5.0
+Pillow>=10.0,<11.0

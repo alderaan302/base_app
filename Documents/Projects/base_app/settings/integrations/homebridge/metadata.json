@@ -1,0 +1,36 @@
+{
+  "type": "homebridge",
+  "name": "Homebridge",
+  "description": "Homebridge smart home platform integration",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "name": "api_url",
+      "label": "API URL",
+      "type": "text",
+      "required": true,
+      "placeholder": "http://192.168.1.100:8581"
+    },
+    {
+      "name": "access_token",
+      "label": "Access Token (Optional - use instead of username/password)",
+      "type": "password",
+      "required": false,
+      "placeholder": "Bearer token from Homebridge UI"
+    },
+    {
+      "name": "username",
+      "label": "Username",
+      "type": "text",
+      "required": false,
+      "placeholder": "Enter username"
+    },
+    {
+      "name": "password",
+      "label": "Password",
+      "type": "password",
+      "required": false,
+      "placeholder": "Enter password"
+    }
+  ]
+}

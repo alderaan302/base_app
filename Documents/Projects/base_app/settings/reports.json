@@ -1,0 +1,85 @@
+{
+  "reports": [
+    {
+      "id": "report_1779638132448",
+      "name": "vdjkdsbgjkb",
+      "description": "jknkjbnlkjn",
+      "integration_id": "",
+      "folder": "/",
+      "owner": "admin",
+      "last_updated": "2026-05-24T15:55:32.448603Z",
+      "last_opened": "2026-05-24T15:55:32.448603Z"
+    },
+    {
+      "id": "report_1779645218229",
+      "name": "myreport2",
+      "description": "A demo report",
+      "integration_id": "VirtualBox",
+      "folder": "/",
+      "owner": "admin",
+      "last_updated": "2026-05-24T17:53:38.229242Z",
+      "last_opened": "2026-05-24T17:53:38.229242Z"
+    },
+    {
+      "id": "report_1779676195455",
+      "name": "My todo notes",
+      "description": "Things I need to get done",
+      "integration_id": "sevone-nms-rest",
+      "folder": "/",
+      "owner": "admin",
+      "last_updated": "2026-05-25T02:29:55.455968Z",
+      "last_opened": "2026-05-25T02:29:55.455968Z"
+    },
+    {
+      "id": "report_1779689592240",
+      "name": "newtest",
+      "description": "",
+      "integration_id": "",
+      "folder": "/",
+      "owner": "admin",
+      "last_updated": "2026-05-25T06:13:12.240063Z",
+      "last_opened": "2026-05-25T06:13:12.240063Z"
+    },
+    {
+      "id": "report_1779690794446",
+      "name": "My Production DI Report",
+      "description": "... yeah you got that from the name",
+      "integration_id": "",
+      "folder": "/",
+      "owner": "admin",
+      "last_updated": "2026-05-25T06:33:14.446075Z",
+      "last_opened": "2026-05-25T06:33:14.446075Z"
+    },
+    {
+      "id": "report_1779759017895",
+      "name": "Real Software LLC",
+      "description": "Platform Goals",
+      "integration_id": "",
+      "folder": "/",
+      "owner": "admin",
+      "last_updated": "2026-05-26T01:30:17.895577Z",
+      "last_opened": "2026-05-26T01:30:17.895577Z"
+    },
+    {
+      "id": "report_1779760900483",
+      "name": "Homebridge",
+      "description": "sad sad",
+      "integration_id": "",
+      "folder": "/",
+      "owner": "admin",
+      "last_updated": "2026-05-26T02:01:40.483408Z",
+      "last_opened": "2026-05-26T02:01:40.483408Z",
+      "widgets": []
+    },
+    {
+      "id": "report_1779846859740",
+      "name": "url widget page tester",
+      "description": "test2",
+      "integration_id": "",
+      "folder": "/",
+      "owner": "admin",
+      "last_updated": "2026-05-27T01:54:19.739972Z",
+      "last_opened": "2026-05-27T01:54:19.739972Z"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="ring-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066DA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0099FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <circle cx="50" cy="50" r="45" fill="url(#ring-gradient)"/>
+  <!-- Outer ring (doorbell shape) -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="white" stroke-width="4"/>
+  <!-- Inner circle (camera lens) -->
+  <circle cx="50" cy="50" r="18" fill="white" opacity="0.9"/>
+  <!-- Camera lens center -->
+  <circle cx="50" cy="50" r="10" fill="#333333"/>
+  <!-- Lens reflection -->
+  <circle cx="47" cy="47" r="4" fill="white" opacity="0.6"/>
+  <!-- Doorbell button indicator -->
+  <circle cx="50" cy="75" r="4" fill="white"/>
+</svg>

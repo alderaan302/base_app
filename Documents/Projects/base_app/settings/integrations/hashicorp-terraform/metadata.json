@@ -1,0 +1,29 @@
+{
+  "type": "hashicorp-terraform",
+  "name": "Hashicorp Terraform",
+  "description": "Hashicorp Terraform infrastructure as code integration",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "name": "url",
+      "label": "URL",
+      "type": "text",
+      "required": true,
+      "placeholder": "https://terraform.example.com"
+    },
+    {
+      "name": "username",
+      "label": "Username",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter username"
+    },
+    {
+      "name": "password",
+      "label": "Password",
+      "type": "password",
+      "required": true,
+      "placeholder": "Enter password"
+    }
+  ]
+}

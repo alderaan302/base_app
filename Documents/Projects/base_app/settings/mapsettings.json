@@ -1,0 +1,42 @@
+{
+  "maps": [
+    {
+      "id": "2",
+      "name": "New Map - this one works",
+      "description": "This better fucking work",
+      "type": "Device",
+      "nodes": [
+        {
+          "deviceName": "mac-mini-02",
+          "id": "node-1779679787283",
+          "resourceId": "resource-1779679785799",
+          "x": 1233,
+          "y": 93
+        },
+        {
+          "id": "node-1779679891825",
+          "resourceId": "resource-1779679887110",
+          "deviceName": "mac-mini-03",
+          "x": 806,
+          "y": 568
+        }
+      ],
+      "resources": [
+        {
+          "deviceId": 8,
+          "deviceName": "mac-mini-02",
+          "id": "resource-1779679785799",
+          "type": "device"
+        },
+        {
+          "id": "resource-1779679887110",
+          "deviceId": 6,
+          "deviceName": "mac-mini-03",
+          "type": "device"
+        }
+      ],
+      "created_at": "2026-05-25T03:30:09.246708",
+      "updated_at": "2026-05-25T03:31:34.363772"
+    }
+  ]
+}

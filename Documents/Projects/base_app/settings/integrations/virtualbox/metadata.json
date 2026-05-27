@@ -1,0 +1,22 @@
+{
+  "type": "virtualbox",
+  "name": "VirtualBox",
+  "description": "VirtualBox hypervisor REST API integration",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "name": "host",
+      "label": "IP Address / Host",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter IP address or hostname"
+    },
+    {
+      "name": "port",
+      "label": "Port",
+      "type": "text",
+      "required": true,
+      "placeholder": "9092"
+    }
+  ]
+}

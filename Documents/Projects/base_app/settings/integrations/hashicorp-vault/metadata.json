@@ -1,0 +1,29 @@
+{
+  "type": "hashicorp-vault",
+  "name": "Hashicorp Vault",
+  "description": "Hashicorp Vault secrets management integration",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "name": "vault_url",
+      "label": "Vault URL",
+      "type": "text",
+      "required": true,
+      "placeholder": "https://vault.example.com:8200"
+    },
+    {
+      "name": "app_role",
+      "label": "App Role",
+      "type": "text",
+      "required": true,
+      "placeholder": "Enter app role"
+    },
+    {
+      "name": "token",
+      "label": "Token",
+      "type": "password",
+      "required": true,
+      "placeholder": "Enter vault token"
+    }
+  ]
+}

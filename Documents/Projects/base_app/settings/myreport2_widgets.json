@@ -1,0 +1,71 @@
+{
+  "widgets": [
+    {
+      "height": 416,
+      "id": "widget_1779645258838",
+      "image": "widget_5040820110.png",
+      "name": "dsfsdfsdfdsgffdfdsgsgf",
+      "type": "Picture",
+      "width": 574,
+      "x": 20,
+      "y": 20
+    },
+    {
+      "height": 562,
+      "id": "widget_1779646301586",
+      "image": "widget_5041865770.png",
+      "name": "sdsfsd",
+      "type": "Picture",
+      "width": 960,
+      "x": 603,
+      "y": 20
+    },
+    {
+      "height": 617,
+      "id": "widget_1779646329657",
+      "image": "widget_5041896080.png",
+      "name": "My bank",
+      "type": "Picture",
+      "width": 658,
+      "x": 20,
+      "y": 602
+    },
+    {
+      "height": 300,
+      "id": "widget_1779646397225",
+      "image": "widget_5041963280.png",
+      "name": "rgegerg",
+      "type": "Picture",
+      "width": 400,
+      "x": 1569,
+      "y": 489
+    },
+    {
+      "height": 475,
+      "id": "widget_1779646876436",
+      "image": "",
+      "name": "test txt",
+      "text": "# me text\n\n### header 1\n\nrwret sgf\n\n### header 2",
+      "textType": "Markup editor",
+      "type": "Text",
+      "width": 724,
+      "x": 705,
+      "y": 813
+    },
+    {
+      "height": 467,
+      "hideLegend": false,
+      "id": "widget_1779649300663",
+      "image": "",
+      "integrationId": "prometheus_2",
+      "metric": "go_gc_duration_seconds",
+      "name": "mychart",
+      "text": "",
+      "textType": "Text",
+      "type": "Chart",
+      "width": 755,
+      "x": 1573,
+      "y": 16
+    }
+  ]
+}

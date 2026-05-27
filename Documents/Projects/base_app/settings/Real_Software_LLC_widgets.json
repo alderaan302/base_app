@@ -1,0 +1,44 @@
+{
+  "widgets": [
+    {
+      "height": 509,
+      "hideLegend": false,
+      "id": "widget_1779766707206",
+      "image": "",
+      "integrationId": "",
+      "metric": "",
+      "name": "Mission Statement2",
+      "tabId": "tab_1",
+      "text": "# Mission Statement",
+      "textType": "Markup editor",
+      "type": "Text",
+      "url": "",
+      "width": 637,
+      "x": 2,
+      "y": 16
+    },
+    {
+      "id": "widget_1779839857330",
+      "type": "Text",
+      "name": "TODO List",
+      "image": "",
+      "text": "# High Priority TODOs\n\nfinish homebridge\nimport ",
+      "textType": "Markup editor",
+      "integrationId": "",
+      "metric": "",
+      "object": "",
+      "hideLegend": false,
+      "tabId": "tab_1",
+      "x": 20,
+      "y": 545,
+      "width": 400,
+      "height": 300
+    }
+  ],
+  "tabs": [
+    {
+      "id": "tab_1",
+      "name": "Initial Tab"
+    }
+  ]
+}

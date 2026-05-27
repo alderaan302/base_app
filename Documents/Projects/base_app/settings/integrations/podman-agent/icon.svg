@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="podman-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#892CA0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5C1F70;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <circle cx="50" cy="50" r="45" fill="url(#podman-gradient)"/>
+  <!-- Container box representation -->
+  <rect x="25" y="30" width="50" height="35" rx="4" fill="none" stroke="white" stroke-width="3"/>
+  <rect x="30" y="35" width="40" height="25" rx="2" fill="white" opacity="0.3"/>
+  <!-- Podman seal/mascot simplified -->
+  <circle cx="50" cy="70" r="12" fill="white"/>
+  <circle cx="45" cy="68" r="2" fill="#892CA0"/>
+  <circle cx="55" cy="68" r="2" fill="#892CA0"/>
+  <path d="M 43 74 Q 50 77 57 74" fill="none" stroke="#892CA0" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,112 @@
+{
+  "widgets": [
+    {
+      "alerts": [
+        {
+          "deviceName": "sevone-nms-er-01s",
+          "id": "2892",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "ALERT",
+          "startTime": "1779200285"
+        },
+        {
+          "deviceName": "mac-mini-03",
+          "id": "2893",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "WARNING",
+          "startTime": "1779200285"
+        },
+        {
+          "deviceName": "cisco-rv320",
+          "id": "2894",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "ALERT",
+          "startTime": "1779200285"
+        },
+        {
+          "deviceName": "mac-mini-02",
+          "id": "2895",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "WARNING",
+          "startTime": "1779200285"
+        },
+        {
+          "deviceName": "aws-rt-01",
+          "id": "2897",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "ALERT",
+          "startTime": "1779200286"
+        },
+        {
+          "deviceName": "sevone-nms-er-01s",
+          "id": "2898",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "EMERGENCY",
+          "startTime": "1779200285"
+        },
+        {
+          "deviceName": "cisco-rv320",
+          "id": "2899",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "EMERGENCY",
+          "startTime": "1779200285"
+        },
+        {
+          "deviceName": "mac-mini-04",
+          "id": "2901",
+          "message": "",
+          "origin": "Unknown",
+          "policyName": "Unknown",
+          "severity": "WARNING",
+          "startTime": "1779293765"
+        }
+      ],
+      "height": 519,
+      "id": "widget_1779690834210",
+      "integrationId": "sevone-nms-rest",
+      "name": "Alerts",
+      "tabId": "tab_1",
+      "type": "Alert Details",
+      "width": 1109,
+      "x": 20,
+      "y": 20
+    },
+    {
+      "height": 427,
+      "hideLegend": false,
+      "id": "widget_1779758870466",
+      "image": "",
+      "integrationId": "homebridge",
+      "metric": "",
+      "name": "Homebridge Settings",
+      "object": "Settings",
+      "tabId": "tab_1",
+      "text": "",
+      "textType": "Text",
+      "type": "Metadata",
+      "width": 569,
+      "x": 20,
+      "y": 559
+    }
+  ],
+  "tabs": [
+    {
+      "id": "tab_1",
+      "name": "Initial Tab"
+    }
+  ]
+}

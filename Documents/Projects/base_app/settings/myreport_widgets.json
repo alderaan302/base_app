@@ -1,0 +1,14 @@
+{
+  "widgets": [
+    {
+      "id": "widget_1779644773148",
+      "type": "Picture",
+      "name": "my widget",
+      "image": "widget_5040338200.png",
+      "x": 20,
+      "y": 20,
+      "width": 400,
+      "height": 300
+    }
+  ]
+}
