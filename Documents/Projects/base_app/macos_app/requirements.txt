@@ -1,0 +1,10 @@
+pywebview>=5.0
+pyobjc-core>=10.0
+pyobjc-framework-Cocoa>=10.0
+pyobjc-framework-WebKit>=10.0
+Flask>=3.0,<4.0
+Werkzeug>=3.0,<4.0
+requests>=2.31,<3.0
+Pillow>=10.0,<11.0
+selenium>=4.15,<5.0
+py2app>=0.28
